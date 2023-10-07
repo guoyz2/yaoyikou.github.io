@@ -1,0 +1,12 @@
+import{_ as a}from"./plugin-vue_export-helper-c27b6911.js";import{o as s,c as n,e}from"./app-2b248397.js";const i={},l=e(`<h1 id="pm2使用" tabindex="-1"><a class="header-anchor" href="#pm2使用" aria-hidden="true">#</a> pm2使用</h1><p>PM2是一个流行的进程管理工具，用于在生产环境中管理Node.js应用程序。它提供了许多有用的功能，包括：</p><ol><li><p>进程守护：PM2可以启动、停止和重启应用程序，并确保它们在服务器上持续运行，即使发生崩溃或错误也能自动重启。</p></li><li><p>负载均衡：PM2可以根据系统资源和负载情况自动进行负载均衡，将请求分发给多个应用程序实例，以提高性能和可靠性。</p></li><li><p>日志管理：PM2可以收集和管理应用程序的日志，包括标准输出和错误输出。它提供了强大的日志管理功能，包括日志轮转、日志切割、日志时间戳等。</p></li><li><p>环境变量管理：PM2可以管理应用程序的环境变量，包括配置不同环境的变量、保护敏感信息等。</p></li><li><p>远程部署和管理：PM2提供了远程部署和管理功能，可以通过命令行或Web界面对远程服务器上的应用程序进行管理和监控。</p></li><li><p>监控和告警：PM2可以监控应用程序的状态、资源使用情况和运行指标，并提供告警功能，以便及时处理异常情况。</p></li></ol><h2 id="安装" tabindex="-1"><a class="header-anchor" href="#安装" aria-hidden="true">#</a> 安装</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">npm</span> i pm2 <span class="token parameter variable">-g</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="常用命令" tabindex="-1"><a class="header-anchor" href="#常用命令" aria-hidden="true">#</a> 常用命令</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># 列出所有正在运行的程序</span>
+pm2 list
+<span class="token comment"># 查看所有程序的日志</span>
+pm2 logs
+<span class="token comment"># 使用 pm2 启动一个 npm run dev 命令</span>
+pm2 start <span class="token parameter variable">--name</span> <span class="token operator">&lt;</span>自定义进程名称<span class="token operator">&gt;</span> <span class="token function">npm</span> -- run dev
+<span class="token comment"># 重启进程</span>
+pm2 restart <span class="token operator">&lt;</span>需要重启的进程名称<span class="token operator">&gt;</span>
+<span class="token comment"># 停止进程</span>
+pm2 stop <span class="token operator">&lt;</span>需要停止的进程名称<span class="token operator">&gt;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,7),p=[l];function r(t,d){return s(),n("div",null,p)}const m=a(i,[["render",r],["__file","pm2使用.html.vue"]]);export{m as default};

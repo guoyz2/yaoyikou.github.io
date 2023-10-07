@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://yaoyikou.xyz/sitemap.xml
+Sitemap: https://xianyufs.top/sitemap.xml
